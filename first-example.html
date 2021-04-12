@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My App</title>
+        <link rel="icon" type="image/ico" href="./favicon.ico"/>
+        <meta description="Top products in the UAE" />
+        <meta keywords="Phones, Laptops, Games" />
+        <style>
+
+            /* Example of identifying by tagname  */
+            a {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            /* Example of identifying by position of child */
+            body > a.green:nth-child(3),
+            body > a.green:first-child,
+            body > a.green:last-child {
+                color: green;
+            }
+
+            /* Example of identifying by descendents */
+            body a {
+                font-size: 20px;
+            }
+
+            /* Example of identifying by class */
+            a.blue {
+                color: blue
+            }
+
+
+        </style>
+    </head>
+    <body> 
+        <a class="green" href="http://app.com/product">click here</a> 
+        <a class="green" href="http://app.com/product">click here</a>
+        <a class="green" href="http://app.com/product">click here</a>
+        <a class="blue" href="http://app.com/product">click here</a>
+        <a class="green" href="http://app.com/product">click here</a>
+        <a class="green" href="http://app.com/product">click here</a>
+    </body>
+</html>
